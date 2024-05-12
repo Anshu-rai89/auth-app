@@ -6,7 +6,7 @@ function Home(props) {
     return (
         <div>
             {
-                user === null ? `Welcome to Auth APP Using react Home Page`: `Welcome ${user.name} To Home page`
+                user === null ? `Welcome to Auth APP Home Page`: `Welcome ${user.name} To Home page`
             }
         </div>
     );
